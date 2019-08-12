@@ -2113,6 +2113,52 @@
 .cq-dialog-active {
   visibility: visible;
   z-index: 1; }
+.ciq-chart-table__panel {
+  position: relative;
+  overflow: hidden;
+  transform: translateZ(0); }
+.ciq-chart-table__panel__group {
+    position: relative;
+    padding-top: 44px;
+    overflow: hidden; }
+.ciq-chart-table__panel__group--title {
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      transform: translate3d(0, 0, 0);
+      padding: 16px 24px 8px;
+      font-weight: bold;
+      height: 44px;
+      box-sizing: border-box;
+      line-height: 1.43;
+      font-size: 14px; }
+.smartcharts-light .ciq-chart-table__panel__group--title {
+        background: #f4f4f6;
+        color: rgba(0, 0, 0, 0.8); }
+.smartcharts-dark .ciq-chart-table__panel__group--title {
+        background: #101320;
+        color: #ffffff; }
+.ciq-chart-table__panel__group--title.sticky-top, .ciq-chart-table__panel__group--title.sticky-bottom {
+        z-index: 8; }
+.smartcharts-light .ciq-chart-table__panel__group--title.sticky-top, .smartcharts-light .ciq-chart-table__panel__group--title.sticky-bottom {
+          background-color: #f4f4f6;
+          border-bottom: 1px solid #f4f4f6; }
+.smartcharts-dark .ciq-chart-table__panel__group--title.sticky-top, .smartcharts-dark .ciq-chart-table__panel__group--title.sticky-bottom {
+          background-color: #191c31;
+          border-bottom: 1px solid #191c31; }
+.ciq-chart-table__panel__group--title.sticky-bottom {
+        position: absolute;
+        top: auto !important;
+        bottom: 0px !important; }
+.ciq-chart-table__panel__group--title.sticky-top {
+        position: fixed;
+        top: 0px;
+        z-index: 9; }
+.smartcharts-light .ciq-chart-table__panel__group--title.sticky-top {
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08); }
+.smartcharts-dark .ciq-chart-table__panel__group--title.sticky-top {
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.24); }
 .ciq-chart-table {
   width: 100%;
   border-collapse: collapse;
@@ -2157,17 +2203,6 @@
       max-width: 50px !important;
       text-align: left;
       padding-left: 4px; }
-.ciq-chart-table tr th.ciq-table-cell--wide, .ciq-chart-table tr td.ciq-table-cell--wide {
-      min-width: 100% !important;
-      max-width: 100% !important;
-      padding: 8px 24px;
-      font-weight: bold; }
-.smartcharts-light .ciq-chart-table tr th.ciq-table-cell--wide, .smartcharts-light .ciq-chart-table tr td.ciq-table-cell--wide {
-        background: #f4f4f6;
-        color: rgba(0, 0, 0, 0.8); }
-.smartcharts-dark .ciq-chart-table tr th.ciq-table-cell--wide, .smartcharts-dark .ciq-chart-table tr td.ciq-table-cell--wide {
-        background: #101320;
-        color: #ffffff; }
 .ciq-chart-table tr th:nth-child(1), .ciq-chart-table tr th:nth-child(1), .ciq-chart-table tr td:nth-child(1), .ciq-chart-table tr td:nth-child(1) {
       min-width: 90px;
       max-width: 90px;
@@ -2229,13 +2264,6 @@
     display: block; }
 .ciq-chart-table .cq-change-cell {
     display: inline-flex; }
-.ciq-chart-table--scrolled {
-    position: relative;
-    z-index: 9; }
-.smartcharts-light .ciq-chart-table--scrolled thead {
-      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08); }
-.smartcharts-dark .ciq-chart-table--scrolled thead {
-      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.24); }
 .ciq-chart-table--tick tr td:nth-child(1), .ciq-chart-table--tick tr td:nth-child(1), .ciq-chart-table--tick tr th:nth-child(1), .ciq-chart-table--tick tr th:nth-child(1) {
     min-width: 105px;
     max-width: 105px;
