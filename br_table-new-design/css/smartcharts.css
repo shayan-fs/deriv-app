@@ -2100,9 +2100,6 @@
   width: var(--table-width);
   left: auto;
   overflow: hidden; }
-.ciq-chart-dialog .ciq-list > :last-child {
-    top: 15px !important;
-    margin-right: 10px; }
 .cq-dialog-overlay {
   visibility: hidden;
   bottom: 0; }
@@ -2116,7 +2113,12 @@
 .ciq-chart-table__panel {
   position: relative;
   overflow: hidden;
-  transform: translateZ(0); }
+  transform: translateZ(0);
+  top: -1px; }
+.smartcharts-light .ciq-chart-table__panel {
+    background: #ffffff; }
+.smartcharts-dark .ciq-chart-table__panel {
+    background: #191c31; }
 .ciq-chart-table__panel__group {
     position: relative;
     padding-top: 44px;
@@ -2232,7 +2234,8 @@
         stroke: none; }
 .ciq-chart-table thead {
     width: var(--table-width);
-    display: block; }
+    display: block;
+    height: 52px; }
 .smartcharts-light .ciq-chart-table thead {
       background: #ffffff;
       border-bottom: 1px solid #f4f4f6; }
