@@ -2106,7 +2106,7 @@
 .smartcharts-light .cq-dialog-overlay {
     background: rgba(255, 255, 255, 0.7); }
 .smartcharts-dark .cq-dialog-overlay {
-    background: rgba(42, 48, 82, 0.7); }
+    background: rgba(16, 19, 32, 0.72); }
 .cq-dialog-active {
   visibility: visible;
   z-index: 1; }
