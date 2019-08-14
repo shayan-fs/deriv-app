@@ -2149,10 +2149,6 @@
         position: fixed;
         top: 0px;
         z-index: 9; }
-.smartcharts-light .ciq-chart-table__panel__group--title.sticky-top {
-          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08); }
-.smartcharts-dark .ciq-chart-table__panel__group--title.sticky-top {
-          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.24); }
 .ciq-chart-table {
   width: 100%;
   border-collapse: collapse;
