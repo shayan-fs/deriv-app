@@ -2119,9 +2119,11 @@
     background: #ffffff; }
 .smartcharts-dark .ciq-chart-table__panel {
     background: #191c31; }
+.ciq-chart-table__panel > div:last-child {
+    right: 10px !important; }
 .ciq-chart-table__panel__group {
     position: relative;
-    padding-top: 44px;
+    padding-top: 52px;
     overflow: hidden; }
 .ciq-chart-table__panel__group--title {
       display: block;
@@ -2149,8 +2151,7 @@
         bottom: 0px !important; }
 .ciq-chart-table__panel__group--title.sticky-top {
         position: fixed;
-        top: 0px;
-        z-index: 9; }
+        top: 0px; }
 .ciq-chart-table {
   width: 100%;
   border-collapse: collapse;
@@ -2190,11 +2191,6 @@
       min-width: 105px !important;
       max-width: 105px !important;
       padding-right: 4px; }
-.ciq-chart-table tr th:last-child, .ciq-chart-table tr td:last-child {
-      min-width: 50px !important;
-      max-width: 50px !important;
-      text-align: left;
-      padding-left: 4px; }
 .ciq-chart-table tr th:nth-child(1), .ciq-chart-table tr th:nth-child(1), .ciq-chart-table tr td:nth-child(1), .ciq-chart-table tr td:nth-child(1) {
       min-width: 90px;
       max-width: 90px;
@@ -2215,6 +2211,11 @@
 .ciq-chart-table tr th:nth-child(6), .ciq-chart-table tr th:nth-child(6), .ciq-chart-table tr td:nth-child(6), .ciq-chart-table tr td:nth-child(6) {
       width: 40px;
       padding-right: 4px; }
+.ciq-chart-table tr th:last-child, .ciq-chart-table tr td:last-child {
+      min-width: 42px !important;
+      max-width: 42px !important;
+      text-align: left;
+      padding-left: 4px; }
 .ciq-chart-table tr th:last-child {
     text-align: center; }
 .ciq-chart-table tr th:last-child .ic-icon {
