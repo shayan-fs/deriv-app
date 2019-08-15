@@ -2163,6 +2163,8 @@
     border-bottom: 1px solid #f4f4f6; }
 .smartcharts-dark .ciq-chart-table tr {
     border-bottom: 1px solid #191c31; }
+.ciq-chart-table tr:last-child {
+    border-bottom: none; }
 .ciq-chart-table tr th, .ciq-chart-table tr td {
     text-align: right;
     box-sizing: border-box;
@@ -2237,11 +2239,9 @@
     display: block;
     height: 52px; }
 .smartcharts-light .ciq-chart-table thead {
-      background: #ffffff;
-      border-bottom: 1px solid #f4f4f6; }
+      background: #ffffff; }
 .smartcharts-dark .ciq-chart-table thead {
-      background: #191c31;
-      border-bottom: 1px solid #191c31; }
+      background: #191c31; }
 .ciq-chart-table thead th {
       font-size: 14px;
       font-weight: bold;
