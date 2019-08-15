@@ -2147,7 +2147,7 @@
 .ciq-chart-table__panel__group--title.sticky-bottom {
         position: absolute;
         top: auto !important;
-        bottom: 0px !important; }
+        bottom: 1px !important; }
 .ciq-chart-table__panel__group--title.sticky-top {
         position: fixed;
         top: 0px; }
