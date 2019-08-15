@@ -2113,8 +2113,7 @@
 .ciq-chart-table__panel {
   position: relative;
   overflow: hidden;
-  transform: translateZ(0);
-  top: -1px; }
+  transform: translateZ(0); }
 .smartcharts-light .ciq-chart-table__panel {
     background: #ffffff; }
 .smartcharts-dark .ciq-chart-table__panel {
