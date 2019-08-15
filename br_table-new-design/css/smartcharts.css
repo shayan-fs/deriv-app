@@ -2124,6 +2124,14 @@
     position: relative;
     padding-top: 52px;
     overflow: hidden; }
+.ciq-chart-table__panel__group:after {
+      width: 100%;
+      background: #f4f4f6;
+      height: 2px;
+      left: 0px;
+      top: -1px;
+      content: ' ';
+      position: absolute; }
 .ciq-chart-table__panel__group--title {
       display: block;
       position: absolute;
