@@ -2122,14 +2122,13 @@
     right: 10px !important; }
 .ciq-chart-table__panel__group {
     position: relative;
-    padding-top: 52px;
+    padding-top: 44px;
     overflow: hidden; }
 .ciq-chart-table__panel__group--title {
       display: block;
       position: absolute;
       top: 0;
       width: 100%;
-      transform: translate3d(0, 0, 0);
       padding: 16px 24px 8px;
       font-weight: bold;
       height: 44px;
