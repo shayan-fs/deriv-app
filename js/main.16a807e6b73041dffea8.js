@@ -86,7 +86,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({"404":"404","DenialOfServiceModal":"DenialOfServiceModal","MarketUnavailableModal":"MarketUnavailableModal","ServicesErrorModal":"ServicesErrorModal","UnsupportedContractModal":"UnsupportedContractModal","account-info":"account-info","contract":"contract","digits":"digits","info-box":"info-box","notification-messages":"notification-messages","push-notification":"push-notification","reports":"reports","screen-small":"screen-small","settings-chart":"settings-chart","settings-language":"settings-language","settings-theme":"settings-theme","toggle-cashier":"toggle-cashier","toggle-menu-drawer":"toggle-menu-drawer","vendors~open_position~7c650be5":"vendors~open_position~7c650be5","default~open_position~1833eefb":"default~open_position~1833eefb","open_positions":"open_positions","profit_table":"profit_table","statement":"statement","vendors~smart_chart":"vendors~smart_chart","smart_chart":"smart_chart","work-in-progress":"work-in-progress","wallet-information":"wallet-information","two-month-picker":"two-month-picker"}[chunkId]||chunkId) + "." + "3322603ac5e6e0336ba5" + ".js"
+/******/ 		return __webpack_require__.p + "js/" + ({"404":"404","DenialOfServiceModal":"DenialOfServiceModal","MarketUnavailableModal":"MarketUnavailableModal","ServicesErrorModal":"ServicesErrorModal","UnsupportedContractModal":"UnsupportedContractModal","account-info":"account-info","contract":"contract","digits":"digits","info-box":"info-box","notification-messages":"notification-messages","push-notification":"push-notification","reports":"reports","screen-small":"screen-small","settings-chart":"settings-chart","settings-language":"settings-language","settings-theme":"settings-theme","toggle-cashier":"toggle-cashier","toggle-menu-drawer":"toggle-menu-drawer","vendors~open_position~7c650be5":"vendors~open_position~7c650be5","default~open_position~1833eefb":"default~open_position~1833eefb","open_positions":"open_positions","profit_table":"profit_table","statement":"statement","vendors~smart_chart":"vendors~smart_chart","smart_chart":"smart_chart","work-in-progress":"work-in-progress","wallet-information":"wallet-information","two-month-picker":"two-month-picker"}[chunkId]||chunkId) + "." + "16a807e6b73041dffea8" + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -266,7 +266,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/br_table-new-design/";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
