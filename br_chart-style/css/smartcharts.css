@@ -1335,6 +1335,11 @@
 .cq-categorical-display .cq-lookup-input {
     margin: 16px 8px;
     position: relative; }
+.smartcharts-light .cq-categorical-display .cq-lookup-input:hover input {
+      border-color: #85acb0; }
+.smartcharts-light .cq-categorical-display .cq-lookup-input:hover > .ic-icon svg {
+      fill: #85acb0;
+      stroke: #85acb0; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input.active input {
       color: #333333;
       border-color: #85acb0; }
@@ -1638,10 +1643,6 @@
 .cq-categorical-display .cq-scroll-panel {
     position: relative;
     min-height: 320px; }
-.smartcharts-light .cq-categorical-display .cq-scroll-panel {
-      border-left: 1px solid #ffffff; }
-.smartcharts-dark .cq-categorical-display .cq-scroll-panel {
-      border-left: 1px solid #191c31; }
 .cq-categorical-display .ciq-item-display {
     display: inline-block;
     vertical-align: top; }
