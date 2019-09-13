@@ -1514,8 +1514,10 @@
 .smartcharts-dark .cq-categorical-display .cq-filter {
       border-left: 4px solid; }
 .smartcharts-light .cq-categorical-display .cq-filter:hover {
+      border-left-color: rgba(0, 0, 0, 0.04);
       background-color: rgba(0, 0, 0, 0.04); }
 .smartcharts-dark .cq-categorical-display .cq-filter:hover {
+      border-left-color: #202641;
       background-color: #202641; }
 .cq-categorical-display .cq-filter.cq-active-filter {
       font-weight: 800; }
