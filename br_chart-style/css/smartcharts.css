@@ -11,6 +11,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 /* ------------------------ *\
 		Variables
 \* ------------------------ */
@@ -146,6 +153,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .ciq-chart-types .cq-menu-dropdown {
   width: 260px;
   box-sizing: border-box; }
@@ -182,6 +196,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-dialog {
   width: 344px;
   left: calc(50% - 344px / 2);
@@ -195,7 +216,7 @@
   z-index: -3;
   transition: pointer-events 0.2s cubic-bezier(0.64, 0.04, 0.35, 1), transform 0.25s cubic-bezier(0.64, 0.04, 0.35, 1), opacity 0.17s cubic-bezier(0.64, 0.04, 0.35, 1), z-index 0.17s cubic-bezier(0.64, 0.04, 0.35, 1); }
 .smartcharts-light .cq-dialog {
-    background: #f4f4f6; }
+    background: #f2f3f4; }
 .smartcharts-dark .cq-dialog {
     background: #191c31; }
 .cq-dialog.open {
@@ -213,7 +234,7 @@
     align-items: center;
     padding: 0 15px; }
 .smartcharts-light .smartcharts-mobile .cq-dialog .cq-titlebar {
-      color: #7f8397;
+      color: #333333;
       border-bottom: 2px solid #ffffff; }
 .smartcharts-dark .smartcharts-mobile .cq-dialog .cq-titlebar {
       color: #ffffff;
@@ -237,6 +258,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .ciq-views .cq-menu-dropdown {
   width: 260px;
   height: 196px; }
@@ -368,6 +396,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 /* stylelint-disable plugin/no-unsupported-browser-features */
 .cq-slider {
   width: 150px;
@@ -647,9 +682,9 @@
 .cq-switch.on .handle {
     left: 17px; }
 .smartcharts-light .cq-switch.on {
-    background: #4bb4b3; }
+    background: #39b19d; }
 .smartcharts-dark .cq-switch.on {
-    background: #4bb4b3; }
+    background: #39b19d; }
 .cq-switch.off .handle {
     left: 1px; }
 .smartcharts-light .cq-switch.off {
@@ -693,6 +728,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .ciq-period {
   padding: 0;
   line-height: 1.5em !important; }
@@ -841,6 +883,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-chart-size {
   display: flex !important;
   height: auto;
@@ -890,6 +939,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .ciq-draw-tools .cq-menu-dropdown {
   width: 200px;
   box-sizing: border-box;
@@ -929,6 +985,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-chart-setting .cq-menu-dropdown .cq-menu-container {
   height: 0px; }
 .cq-chart-setting .cq-menu-dropdown .cq-menu-container.active {
@@ -1050,6 +1113,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-download .cq-menu-dropdown {
   width: 280px; }
 .cq-download .body {
@@ -1082,6 +1152,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .ciq-list {
   position: relative; }
 .ciq-list.ps {
@@ -1102,7 +1179,7 @@
     border-bottom: none;
     box-sizing: border-box; }
 .smartcharts-light .ciq-list .ciq-list-item {
-      color: #7f8397;
+      color: #333333;
       background: #ffffff;
       border-left: 1px solid rgba(153, 156, 172, 0.32);
       border-right: 1px solid rgba(153, 156, 172, 0.32);
@@ -1143,6 +1220,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-dialog-overlay {
   display: flex;
   align-items: center;
@@ -1235,7 +1319,7 @@
         justify-content: space-between;
         align-items: center; }
 .smartcharts-light .cq-settings-dialog .items .item .title {
-          color: #7f8397; }
+          color: #333333; }
 .smartcharts-dark .cq-settings-dialog .items .item .title {
           color: #7f8397; }
 .cq-settings-dialog .buttons {
@@ -1243,7 +1327,7 @@
     justify-content: flex-end;
     margin-bottom: 5px; }
 .smartcharts-light .cq-settings-dialog .buttons {
-      background: #f4f4f6; }
+      background: #f2f3f4; }
 .smartcharts-dark .cq-settings-dialog .buttons {
       background: #191c31; }
 .cq-settings-dialog .buttons > div {
@@ -1306,6 +1390,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-categorical-display {
   width: 512px;
   padding: 0 !important;
@@ -1524,7 +1615,7 @@
 .smartcharts-light .cq-categorical-display .cq-filter.cq-active-filter {
         color: #333333;
         background-color: #ffffff;
-        border-left-color: #ff444f; }
+        border-left-color: #e31c4b; }
 .smartcharts-dark .cq-categorical-display .cq-filter.cq-active-filter {
         color: #ffffff;
         background-color: #2a3052;
@@ -1735,9 +1826,23 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 
 /* ------------------------ *\
 		Variables
@@ -1751,6 +1856,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 /* Comparisons */
 .cq-comparison {
   position: relative;
@@ -1834,6 +1946,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-chart-title {
   display: inline-block;
   top: 1em;
@@ -1963,8 +2082,8 @@
       width: auto;
       padding: 0 5px;
       height: 20px;
-      border: 2px solid #ff444f;
-      color: #ff444f;
+      border: 2px solid #e31c4b;
+      color: #e31c4b;
       border-radius: 4px;
       text-transform: uppercase; }
 .cq-chart-title .cq-symbol-select-btn .cq-chart-price > *, .cq-chart-title .cq-symbol-select-btn .cq-chart-closed > * {
@@ -2015,6 +2134,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .ciq-asset-information {
   position: relative;
   z-index: +1;
@@ -2066,6 +2192,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-bottom-ui-widgets {
   position: absolute;
   width: 100%; }
@@ -2082,6 +2215,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .drawing-mouse-pointer {
   display: none;
   position: absolute;
@@ -2101,6 +2241,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 /* stylelint-disable plugin/no-unsupported-browser-features */
 .ciq-chart-dialog {
   width: var(--table-width);
@@ -2189,13 +2336,13 @@
 .ciq-chart-table tr th .cq-change:after, .ciq-chart-table tr td .cq-change:after {
       margin: 3px 0 0 5px; }
 .smartcharts-light .ciq-chart-table tr th .up, .smartcharts-light .ciq-chart-table tr td .up {
-      color: #4bb4b3; }
+      color: #39b19d; }
 .smartcharts-dark .ciq-chart-table tr th .up, .smartcharts-dark .ciq-chart-table tr td .up {
-      color: #4bb4b3; }
+      color: #39b19d; }
 .smartcharts-light .ciq-chart-table tr th .down, .smartcharts-light .ciq-chart-table tr td .down {
-      color: #ff444f; }
+      color: #e31c4b; }
 .smartcharts-dark .ciq-chart-table tr th .down, .smartcharts-dark .ciq-chart-table tr td .down {
-      color: #ff444f; }
+      color: #e31c4b; }
 .ciq-chart-table tr th.before-last-child, .ciq-chart-table tr td.before-last-child {
       min-width: 105px !important;
       max-width: 105px !important;
@@ -2305,6 +2452,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-last-digits {
   position: absolute;
   bottom: 45px;
@@ -2319,13 +2473,13 @@
 .smartcharts-dark .cq-last-digits .cq-bars {
       color: #7f8397; }
 .smartcharts-light .cq-last-digits .cq-bars .min {
-      color: #ff444f; }
+      color: #e31c4b; }
 .smartcharts-dark .cq-last-digits .cq-bars .min {
-      color: #ff444f; }
+      color: #e31c4b; }
 .smartcharts-light .cq-last-digits .cq-bars .max {
       color: #2d9f93; }
 .smartcharts-dark .cq-last-digits .cq-bars .max {
-      color: #4bb4b3; }
+      color: #39b19d; }
 .cq-last-digits .cq-bars .cq-bar-value {
       margin: -16px 0 0 -6px;
       transition: opacity 0.8s linear;
@@ -2350,13 +2504,13 @@
         text-align: center;
         font-size: 14px; }
 .smartcharts-light .cq-last-digits .cq-bars .cq-bar.min {
-        background-color: #ff444f; }
+        background-color: #e31c4b; }
 .smartcharts-dark .cq-last-digits .cq-bars .cq-bar.min {
-        background-color: #ff444f; }
+        background-color: #e31c4b; }
 .smartcharts-light .cq-last-digits .cq-bars .cq-bar.max {
         background-color: #2d9f93; }
 .smartcharts-dark .cq-last-digits .cq-bars .cq-bar.max {
-        background-color: #4bb4b3; }
+        background-color: #39b19d; }
 .cq-last-digits .cq-bar-footer {
     text-align: center;
     width: 475px;
@@ -2387,6 +2541,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .ciq-navigation-widget {
   width: 32px;
   position: absolute;
@@ -2428,6 +2589,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .spot__shape-circule {
   border-radius: 100%;
   width: 6px;
@@ -2437,13 +2605,13 @@
   line-height: 1px;
   position: absolute; }
 .smartcharts-light .spot__fill-red {
-  background-color: #ff444f; }
+  background-color: #e31c4b; }
 .smartcharts-dark .spot__fill-red {
-  background-color: #ff444f; }
+  background-color: #e31c4b; }
 .smartcharts-light .spot__fill-blue {
-  background-color: #4bb4b3; }
+  background-color: #39b19d; }
 .smartcharts-dark .spot__fill-blue {
-  background-color: #4bb4b3; }
+  background-color: #39b19d; }
 .spot__label {
   text-align: center;
   padding: 4px;
@@ -2498,6 +2666,13 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 /*
  Edit (and rename) this file to implement your own style. Please avoid editing the imported _ciq...scss files
  other than _ciq_general.scss so that you can receive upgrades without having to reimplement your changes.
@@ -2634,9 +2809,9 @@ html, body {
   border-left: 6px solid transparent;
   border-right: 6px solid transparent; }
 .cq-change.up:after {
-  border-bottom: 8px solid #4bb4b3; }
+  border-bottom: 8px solid #39b19d; }
 .cq-change.down:after {
-  border-top: 8px solid #ff444f; }
+  border-top: 8px solid #e31c4b; }
 .cq-change .cq-todays-change-percent {
   padding-left: 3px; }
 /* --------------------------------------------------------- CHART CONTROLS --------------------------------------------------------- */
@@ -2857,11 +3032,11 @@ html, body {
 .smartcharts-light .stx_current_hr_up, .smartcharts-light
   .stx_current_hr_down {
     color: #ffffff;
-    background-color: #ff444f; }
+    background-color: #e31c4b; }
 .smartcharts-dark .stx_current_hr_up, .smartcharts-dark
   .stx_current_hr_down {
     color: #ffffff;
-    background-color: #ff444f; }
+    background-color: #e31c4b; }
 /* -------- Crosshairs lines and labels-------- */
 .stx-float-price,
 .stx-float-date {
@@ -3332,9 +3507,9 @@ html, body {
     -webkit-animation: none;
             animation: none; }
 .smartcharts-light .cq-spot.cq-endpoint {
-      border-left: 2px dashed #ff444f; }
+      border-left: 2px dashed #e31c4b; }
 .smartcharts-dark .cq-spot.cq-endpoint {
-      border-left: 2px dashed #ff444f; }
+      border-left: 2px dashed #e31c4b; }
 .cq-spot.cq-endpoint:before {
       content: '\25CF';
       font-size: 18px;
@@ -3351,10 +3526,10 @@ html, body {
       top: calc(100% - 22px);
       transform: translateX(-50%); }
 .smartcharts-light .cq-spot.cq-endpoint .cq-endpoint-label {
-        background-color: #ff444f;
+        background-color: #e31c4b;
         color: #ffffff; }
 .smartcharts-dark .cq-spot.cq-endpoint .cq-endpoint-label {
-        background-color: #ff444f;
+        background-color: #e31c4b;
         color: #ffffff; }
 .closed-chart .cq-spot {
   -webkit-animation: none;
@@ -3560,7 +3735,7 @@ html, body {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   margin-top: 5px; }
 .smartcharts-light .cq-menu-dropdown {
-    color: #7f8397;
+    color: #333333;
     background-color: #ffffff; }
 .smartcharts-dark .cq-menu-dropdown {
     color: #7f8397;
@@ -3580,7 +3755,7 @@ html, body {
       font-size: 1.2em;
       font-weight: 400; }
 .smartcharts-light .cq-menu-dropdown .title {
-      color: #7f8397; }
+      color: #333333; }
 .smartcharts-dark .cq-menu-dropdown .title {
       color: #ffffff; }
 .smartcharts-light .cq-menu-dropdown .title > .ic-icon {
@@ -3842,6 +4017,13 @@ html, body {
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .cq-chart-controls {
   position: absolute;
   display: flex;
@@ -4073,6 +4255,13 @@ html, body {
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .smartcharts-light .cq-crosshair-toggle:hover {
   background: rgba(0, 0, 0, 0.16); }
 .smartcharts-dark .cq-crosshair-toggle:hover {
@@ -4157,6 +4346,13 @@ html, body {
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 @-webkit-keyframes move-background {
   from {
     -webkit-transform: translateX(0); }
@@ -4221,6 +4417,13 @@ html, body {
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/*****************************\
+ *****************************
+        COLOR PALETTE
+ *****************************
+\*****************************/
+/* Preserve legacy variables */
+/* Primary */
 .stx-marker {
   position: absolute;
   display: inline-block;
