@@ -3045,7 +3045,8 @@ html, body {
 /* -------- Crosshairs lines and labels-------- */
 .stx-float-price,
 .stx-float-date {
-  border-radius: 4px; }
+  border-radius: 4px;
+  font-weight: normal; }
 .smartcharts-light .stx-float-price, .smartcharts-light
   .stx-float-date {
     background-color: #d6dadb;
