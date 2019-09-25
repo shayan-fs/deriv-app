@@ -216,7 +216,7 @@
   z-index: -3;
   transition: pointer-events 0.2s cubic-bezier(0.64, 0.04, 0.35, 1), transform 0.25s cubic-bezier(0.64, 0.04, 0.35, 1), opacity 0.17s cubic-bezier(0.64, 0.04, 0.35, 1), z-index 0.17s cubic-bezier(0.64, 0.04, 0.35, 1); }
 .smartcharts-light .cq-dialog {
-    background: #f2f3f4; }
+    background: #ffffff; }
 .smartcharts-dark .cq-dialog {
     background: #191c31; }
 .cq-dialog.open {
@@ -462,8 +462,8 @@
         margin-top: 0px;
         margin-top: 0px; }
 .smartcharts-light .cq-slider .cq-slider-range input[type='range']::-ms-thumb {
-          background-color: #ffffff;
-          border: 2px solid #2a3052; }
+          background-color: #ff444f;
+          border: 2px solid #ff444f; }
 .smartcharts-dark .cq-slider .cq-slider-range input[type='range']::-ms-thumb {
           background-color: #2a3052;
           border: 2px solid #ffffff; }
@@ -476,8 +476,8 @@
         margin-top: 0px;
         margin-top: 0px; }
 .smartcharts-light .cq-slider .cq-slider-range input[type='range']::-moz-range-thumb {
-          background-color: #ffffff;
-          border: 2px solid #2a3052; }
+          background-color: #ff444f;
+          border: 2px solid #ff444f; }
 .smartcharts-dark .cq-slider .cq-slider-range input[type='range']::-moz-range-thumb {
           background-color: #2a3052;
           border: 2px solid #ffffff; }
@@ -491,8 +491,8 @@
         margin-top: 0px;
         margin-top: 1px; }
 .smartcharts-light .cq-slider .cq-slider-range input[type='range']::-webkit-slider-thumb {
-          background-color: #ffffff;
-          border: 2px solid #2a3052; }
+          background-color: #ff444f;
+          border: 2px solid #ff444f; }
 .smartcharts-dark .cq-slider .cq-slider-range input[type='range']::-webkit-slider-thumb {
           background-color: #2a3052;
           border: 2px solid #ffffff; }
@@ -501,14 +501,14 @@
       outline: none;
       height: 2px; }
 .smartcharts-light .cq-slider .cq-slider-range .cq-slider-bar {
-        background: #7f8397; }
+        background: #eaeced; }
 .smartcharts-dark .cq-slider .cq-slider-range .cq-slider-bar {
         background: #555975; }
 .cq-slider .cq-slider-range .cq-slider-active-bar {
       height: 2px;
       min-width: 10px; }
 .smartcharts-light .cq-slider .cq-slider-range .cq-slider-active-bar {
-        background: #2a3052; }
+        background: #ff444f; }
 .smartcharts-dark .cq-slider .cq-slider-range .cq-slider-active-bar {
         background: #ffffff; }
 .cq-slider > div:last-child {
@@ -516,7 +516,7 @@
     flex-grow: 1;
     font-weight: bold; }
 .smartcharts-light .cq-slider > div:last-child {
-      color: #2a3052; }
+      color: #333333; }
 .smartcharts-dark .cq-slider > div:last-child {
       color: #ffffff; }
 /* stylelint-enable plugin/no-unsupported-browser-features */
@@ -1324,23 +1324,37 @@
           color: #7f8397; }
 .cq-settings-dialog .buttons {
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 5px; }
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 9px 16px; }
 .smartcharts-light .cq-settings-dialog .buttons {
-      background: #f2f3f4; }
+      background: #ffffff; }
 .smartcharts-dark .cq-settings-dialog .buttons {
       background: #191c31; }
 .cq-settings-dialog .buttons > div {
-      width: 90px;
-      height: 40px;
-      line-height: 40px;
+      height: 30px;
+      line-height: 31px;
       text-align: center;
       cursor: pointer;
-      font-size: 1.4em; }
+      font-size: 14px;
+      border-radius: 4px;
+      padding: 0px 20px; }
 .smartcharts-light .cq-settings-dialog .buttons > div {
         color: rgba(0, 0, 0, 0.8); }
 .smartcharts-dark .cq-settings-dialog .buttons > div {
         color: #7f8397; }
+.smartcharts-light .cq-settings-dialog .buttons > div.done {
+        background: #ff444f;
+        color: #ffffff;
+        border: 1px solid #ff444f; }
+.smartcharts-dark .cq-settings-dialog .buttons > div.done {
+        border: 1px solid; }
+.smartcharts-light .cq-settings-dialog .buttons > div.reset {
+        background: transparent;
+        color: #333333;
+        border: 1px solid #999999; }
+.smartcharts-dark .cq-settings-dialog .buttons > div.reset {
+        border: 1px solid; }
 .cq-settings-dialog .description {
     flex-grow: 1;
     padding: 16px;
@@ -2887,13 +2901,10 @@ html, body {
   margin: 5px;
   border-radius: 3px; }
 .smartcharts-light .stx-panel-control {
-    background: #ffffff;
-    border: 1px solid #999cac; }
-.smartcharts-dark .stx-panel-control {
-    background: #101320;
-    border: 1px solid #ffffff; }
+    background: #f2f3f4; }
 .stx-panel-control .stx-btn-panel {
-    opacity: 1; }
+    opacity: 1;
+    background: transparent; }
 .stx-panel-control * {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -2917,13 +2928,7 @@ html, body {
     text-align: left;
     text-transform: uppercase; }
 .smartcharts-light .stx-panel-control .stx-panel-title {
-      border-right: 1px solid #999cac; }
-.smartcharts-dark .stx-panel-control .stx-panel-title {
-      border-right: 1px solid #ffffff; }
-.smartcharts-light .stx-panel-control .stx-panel-title {
-      color: #7f8397; }
-.smartcharts-dark .stx-panel-control .stx-panel-title {
-      color: #ffffff; }
+      color: #333333; }
 /* ------------------------------------------------------- CHART OVERLAY ELEMENTS ------------------------------------------------------ */
 .mSticky {
   position: absolute;
@@ -3040,15 +3045,14 @@ html, body {
 /* -------- Crosshairs lines and labels-------- */
 .stx-float-price,
 .stx-float-date {
-  color: #fff; }
+  border-radius: 4px; }
 .smartcharts-light .stx-float-price, .smartcharts-light
   .stx-float-date {
-    background-color: rgba(127, 131, 151, 0.88); }
+    background-color: #d6dadb;
+    color: #333333 !important; }
 .smartcharts-dark .stx-float-price, .smartcharts-dark
   .stx-float-date {
-    background-color: #2a3052; }
-.stx-float-price {
-  border-radius: 3px; }
+    color: !important; }
 .stx-float-date {
   /* Crosshair Floating x-axis date label*/
   position: absolute;
@@ -3059,14 +3063,13 @@ html, body {
   text-align: center;
   width: auto;
   height: 18px;
-  line-height: 18px;
-  font-weight: bold; }
+  line-height: 18px; }
 .stx_crosshair {
   /* Standard Crosshair lines color */
   position: absolute;
   z-index: 1; }
 .smartcharts-light .stx_crosshair {
-    background-color: rgba(127, 131, 151, 0.32); }
+    background-color: #d6dadb; }
 .smartcharts-dark .stx_crosshair {
     background-color: rgba(127, 131, 151, 0.3); }
 .stx_crosshair_drawing {
@@ -3074,7 +3077,7 @@ html, body {
   position: absolute;
   z-index: 10; }
 .smartcharts-light .stx_crosshair_drawing {
-    background-color: rgba(127, 131, 151, 0.32); }
+    background-color: #d6dadb; }
 .smartcharts-dark .stx_crosshair_drawing {
     background-color: rgba(127, 131, 151, 0.3); }
 .crossY, .stx_crosshair_y {
@@ -3873,7 +3876,8 @@ html, body {
   top: -11px;
   position: absolute;
   right: -1px;
-  border: 1px solid inherit; }
+  border: 1px solid inherit;
+  border-radius: 4px; }
 /*hover*/
 .no-touch .price-arrow span {
   position: absolute;
