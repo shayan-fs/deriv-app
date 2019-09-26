@@ -775,7 +775,7 @@
 .smartcharts-light .ciq-period .cq-menu-dropdown .cq-interval {
         background: #ffffff; }
 .smartcharts-dark .ciq-period .cq-menu-dropdown .cq-interval {
-        background: #101320; }
+        background: #151717; }
 .ciq-period .cq-menu-dropdown .timeUnit {
       display: flex;
       flex-direction: column;
@@ -784,30 +784,30 @@
 .smartcharts-light .ciq-period .cq-menu-dropdown .timeUnit {
         background: #ffffff; }
 .smartcharts-dark .ciq-period .cq-menu-dropdown .timeUnit {
-        background: #101320; }
+        background: #151717; }
 .ciq-period .cq-menu-dropdown .timeUnit span {
         cursor: pointer;
         display: block;
         height: 40px;
         padding-left: 16px;
         line-height: 40px;
-        font-weight: 300; }
+        font-weight: normal; }
 .smartcharts-light .ciq-period .cq-menu-dropdown .timeUnit span {
-          color: #7f8397;
-          border-right: 1px solid #7f8397; }
+          color: #333333;
+          border-right: 1px solid rgba(0, 0, 0, 0.16); }
 .smartcharts-dark .ciq-period .cq-menu-dropdown .timeUnit span {
-          color: #7f8397;
-          border-right: 1px solid #555975; }
+          color: #c2c2c2;
+          border-right: 1px solid #151717; }
 .ciq-period .cq-menu-dropdown .timeUnit span.selected {
-          font-weight: 500; }
+          font-weight: bold; }
 .smartcharts-light .ciq-period .cq-menu-dropdown .timeUnit span.selected {
-            color: #2a3052;
-            background: #d6dadb;
+            color: #333333;
+            background: #ffffff;
             border-right: 2px solid #ff444f; }
 .smartcharts-dark .ciq-period .cq-menu-dropdown .timeUnit span.selected {
             color: #ffffff;
-            background: #202641;
-            border-right: 2px solid #ffffff; }
+            background: #151717;
+            border-right: 2px solid #ff444f; }
 .ciq-period .cq-menu-dropdown .interval {
       display: flex;
       flex-direction: column;
@@ -837,18 +837,19 @@
               background: #d6dadb;
               border-color: #d6dadb; }
 .smartcharts-dark .ciq-period .cq-menu-dropdown .interval .row span.selected {
-              color: #2a3052 !important;
-              background: #ffffff;
-              border-color: #ffffff; }
+              color: #ffffff !important;
+              background: #323738;
+              border-color: #323738; }
 .ciq-period .cq-menu-dropdown .interval .row span:hover {
-            line-height: 27px;
-            font-weight: bold; }
+            line-height: 27px; }
 .smartcharts-light .ciq-period .cq-menu-dropdown .interval .row span:hover {
-              color: #2a3052;
+              color: #333333;
+              background: #e6e9e9;
               border-color: #e6e9e9; }
 .smartcharts-dark .ciq-period .cq-menu-dropdown .interval .row span:hover {
-              color: #7f8397;
-              border-color: #ffffff; }
+              color: #c2c2c2;
+              background: #242828;
+              border-color: #242828; }
 .cq-chart-control-left .ciq-period .cq-menu-btn {
   padding: 0 3px !important; }
 .cq-chart-control-left .ciq-period .cq-menu-btn .bt-priod {
@@ -1063,7 +1064,7 @@
   position: relative;
   transition: height 250ms ease-out; }
 .cq-chart-setting .cq-setting-container.container-language {
-    height: 300px; }
+    height: 320px; }
 .cq-chart-setting .cq-setting-container.container-language .title-text {
       position: relative;
       bottom: 4px; }
@@ -3031,11 +3032,11 @@ html, body {
 .smartcharts-light .stx_current_hr_up, .smartcharts-light
   .stx_current_hr_down {
     color: #ffffff;
-    background-color: #e31c4b; }
+    background-color: #ff444f; }
 .smartcharts-dark .stx_current_hr_up, .smartcharts-dark
   .stx_current_hr_down {
     color: #ffffff;
-    background-color: #e31c4b; }
+    background-color: #ff444f; }
 /* -------- Crosshairs lines and labels-------- */
 .stx-float-price,
 .stx-float-date {
@@ -3506,9 +3507,9 @@ html, body {
     -webkit-animation: none;
             animation: none; }
 .smartcharts-light .cq-spot.cq-endpoint {
-      border-left: 2px dashed #e31c4b; }
+      border-left: 2px dashed #ff444f; }
 .smartcharts-dark .cq-spot.cq-endpoint {
-      border-left: 2px dashed #e31c4b; }
+      border-left: 2px dashed #ff444f; }
 .cq-spot.cq-endpoint:before {
       content: '\25CF';
       font-size: 18px;
@@ -3525,10 +3526,10 @@ html, body {
       top: calc(100% - 22px);
       transform: translateX(-50%); }
 .smartcharts-light .cq-spot.cq-endpoint .cq-endpoint-label {
-        background-color: #e31c4b;
+        background-color: #ff444f;
         color: #ffffff; }
 .smartcharts-dark .cq-spot.cq-endpoint .cq-endpoint-label {
-        background-color: #e31c4b;
+        background-color: #ff444f;
         color: #ffffff; }
 .closed-chart .cq-spot {
   -webkit-animation: none;
