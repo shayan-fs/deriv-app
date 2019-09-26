@@ -269,7 +269,9 @@
     align-items: center;
     height: 32px;
     padding: 0 4px 0 16px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    font-size: 12px;
+    border-radius: 4px 4px 0 0; }
 .smartcharts-light .ciq-views .cq-menu-dropdown .template-name {
       border: 1px solid #eaeced;
       background: #ffffff; }
@@ -332,7 +334,8 @@
           transition: opacity 0.15s 0.2s; }
 .ciq-views .cq-menu-dropdown .content .ciq-list .ciq-list-item:first-child {
           border-top: none;
-          margin-top: 0px !important; }
+          margin-top: 0px !important;
+          border-radius: 0px; }
 .ciq-views .cq-menu-dropdown .content .ciq-list .ciq-list-item:last-child {
           margin-bottom: 0px !important; }
 .ciq-views .ovrwrit-alrt {
@@ -678,13 +681,13 @@
 .cq-switch.on .handle {
     left: 17px; }
 .smartcharts-light .cq-switch.on {
-    background: #39b19d; }
+    background: #4bb4b3; }
 .smartcharts-dark .cq-switch.on {
     background: #39b19d; }
 .cq-switch.off .handle {
     left: 1px; }
 .smartcharts-light .cq-switch.off {
-    background: #7f8397; }
+    background: #eaeced; }
 .smartcharts-dark .cq-switch.off {
     background: #555975; }
 .cq-numbercolorpicker, .cq-fontsetting {
@@ -902,7 +905,7 @@
     cursor: pointer;
     padding: 5px 0px; }
 .smartcharts-light .cq-chart-size .cq-menu-btn:hover {
-      background: rgba(0, 0, 0, 0.16); }
+      background: #e6e9e9; }
 .smartcharts-dark .cq-chart-size .cq-menu-btn:hover {
       background: #202641; }
 .cq-chart-size .interval-title {
@@ -953,6 +956,8 @@
 .ciq-draw-tools .cq-menu-dropdown .body .cq-draw-buttons {
       display: flex;
       margin-top: 18px; }
+.ciq-draw-tools .cq-menu-dropdown .body .cq-draw-buttons + div {
+      border-radius: 4px 4px 0 0; }
 .ciq-draw-tools .cq-menu-dropdown .body .cq-draw-button {
       flex: 1;
       display: flex;
@@ -1045,13 +1050,20 @@
       padding: 0;
       padding-left: 10px; }
 .cq-chart-setting .body .ciq-list-language .ciq-list-item:first-child {
-        margin-top: 0px !important; }
+        margin-top: 0px !important;
+        border-radius: 4px 0 0; }
 .cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(2n) {
         border-left: none; }
+.cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(2) {
+        border-radius: 0 4px 0 0; }
 .smartcharts-light .cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(2) {
-        border-top: 1px solid #eaeced; }
+          border-top: 1px solid #eaeced; }
 .smartcharts-dark .cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(2) {
-        border-top: 1px solid #1d1f20; }
+          border-top: 1px solid #1d1f20; }
+.cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(12) {
+        border-radius: 0 0 4px; }
+.cq-chart-setting .body .ciq-list-language .ciq-list-item:last-child {
+        border-radius: 0 0 4px 4px; }
 .cq-chart-setting .body .ciq-list-language .ciq-list-item .ic-icon {
         cursor: pointer;
         display: inline-block;
@@ -1181,13 +1193,25 @@
 .smartcharts-light .ciq-list .ciq-list-item {
       color: #333333;
       background: #ffffff;
-      border: 1px solid #eaeced; }
+      border: 1px solid #eaeced;
+      border-top: none; }
 .smartcharts-dark .ciq-list .ciq-list-item {
       color: #c2c2c2;
       background: #0e0e0e;
-      border: 1px solid #1d1f20; }
+      border: 1px solid #1d1f20;
+      border-top: none; }
 .ciq-list .ciq-list-item:first-child {
-      margin-top: 18px; }
+      margin-top: 18px;
+      border-radius: 4px 4px 0 0; }
+.smartcharts-light .ciq-list .ciq-list-item:first-child {
+        border-top: 1px solid #eaeced; }
+.smartcharts-dark .ciq-list .ciq-list-item:first-child {
+        border-top: 1px solid #1d1f20; }
+.ciq-list .ciq-list-item:last-child {
+      border-radius: 0 0 4px 4px;
+      margin-bottom: 18px; }
+.smartcharts-light .ciq-list .ciq-list-item:hover {
+      background-color: #e6e9e9; }
 .ciq-list .ciq-list-item.active {
       font-weight: bold; }
 .smartcharts-light .ciq-list .ciq-list-item.active {
@@ -1529,8 +1553,12 @@
       transition: right, opacity 0.2s ease-in-out; }
 .cq-categorical-display .category {
     padding-top: 3em;
-    padding-bottom: 16px;
+    padding-bottom: 12px;
     position: relative; }
+.smartcharts-light .cq-categorical-display .category {
+      border-bottom: 4px solid #f2f3f4; }
+.smartcharts-dark .cq-categorical-display .category {
+      border-bottom: 4px solid #151717; }
 .cq-categorical-display .category:last-child {
       padding-bottom: 2.5em; }
 .cq-categorical-display .category.category-has-subtitle {
@@ -1542,6 +1570,8 @@
       border: 1px solid #ffffff; }
 .smartcharts-dark .cq-categorical-display .category-content {
       border: 1px solid #0e0e0e; }
+.cq-categorical-display .category-content > div:nth-child(2) {
+      border-radius: 4px 4px 0 0; }
 .cq-categorical-display .category-content:last-child {
       margin-bottom: 0px; }
 .cq-categorical-display .subcategory {
@@ -1751,7 +1781,7 @@
 .cq-categorical-display .empty-category {
     padding: 0.9em 1.2em;
     border-radius: 4px;
-    font-size: 1.4em; }
+    font-size: 14px; }
 .smartcharts-light .cq-categorical-display .empty-category {
       background-color: #ffffff; }
 .smartcharts-dark .cq-categorical-display .empty-category {
@@ -4084,7 +4114,7 @@ html, body {
       .cq-chart-controls .ciq-menu.ciq-enabled.stxMenuActive .cq-menu-btn > .cq-toggle .ic-subtitle {
         color: #ffffff; }
 .smartcharts-light .cq-chart-controls .ciq-menu.ciq-enabled .cq-menu-btn:hover {
-      background: rgba(0, 0, 0, 0.16); }
+      background: #e6e9e9; }
 .smartcharts-dark .cq-chart-controls .ciq-menu.ciq-enabled .cq-menu-btn:hover {
       background: #202641; }
 .cq-chart-controls .ciq-menu .cq-menu-btn {
@@ -4269,7 +4299,7 @@ html, body {
 /* Preserve legacy variables */
 /* Primary */
 .smartcharts-light .cq-crosshair-toggle:hover {
-  background: rgba(0, 0, 0, 0.16); }
+  background: #e6e9e9; }
 .smartcharts-dark .cq-crosshair-toggle:hover {
   background: #202641; }
 .smartcharts-light .cq-crosshair-toggle .cq-toggle.active svg {
