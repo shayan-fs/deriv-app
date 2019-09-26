@@ -164,7 +164,7 @@
   width: 200px;
   box-sizing: border-box; }
 .ciq-chart-types .cq-menu-dropdown .body {
-    padding: 18px 18px 0; }
+    padding: 0 18px; }
 .ciq-chart-types .ciq-list {
   padding-right: 9px; }
 .ciq-chart-types .ciq-list .ciq-list-item {
@@ -234,7 +234,7 @@
       border-bottom: 2px solid #f2f3f4; }
 .smartcharts-dark .smartcharts-mobile .cq-dialog .cq-titlebar {
       color: #ffffff;
-      border-bottom: 2px solid #191c31; }
+      border-bottom: 2px solid #151717; }
 .smartcharts-mobile .cq-dialog .cq-titlebar :last-child {
       margin-left: auto; }
 .smartcharts-mobile .cq-dialog .cq-titlebar .cq-title {
@@ -332,7 +332,7 @@
           transition: opacity 0.15s 0.2s; }
 .ciq-views .cq-menu-dropdown .content .ciq-list .ciq-list-item:first-child {
           border-top: none;
-          margin-top: 0; }
+          margin-top: 0px !important; }
 .ciq-views .cq-menu-dropdown .content .ciq-list .ciq-list-item:last-child {
           margin-bottom: 0px !important; }
 .ciq-views .ovrwrit-alrt {
@@ -345,7 +345,7 @@
 .smartcharts-light .ciq-views .ovrwrit-alrt {
     background-color: #f2f3f4; }
 .smartcharts-dark .ciq-views .ovrwrit-alrt {
-    background-color: #191c31; }
+    background-color: #151717; }
 .ciq-views .ovrwrit-alrt .ovrwrit-alrt-title {
     text-align: center; }
 .ciq-views .ovrwrit-alrt .ovrwrit-alrt-title .ic-icon {
@@ -947,10 +947,11 @@
   box-sizing: border-box;
   overflow: visible !important; }
 .ciq-draw-tools .cq-menu-dropdown .body {
-    padding: 18px 18px 0;
+    padding: 0 18px;
     overflow: visible; }
 .ciq-draw-tools .cq-menu-dropdown .body .cq-draw-buttons {
-      display: flex; }
+      display: flex;
+      margin-top: 18px; }
 .ciq-draw-tools .cq-menu-dropdown .body .cq-draw-button {
       flex: 1;
       display: flex;
@@ -1005,6 +1006,8 @@
       height: 38px;
       line-height: normal;
       cursor: default; }
+.cq-chart-setting .body .ciq-list-setting .ciq-list-item:first-child {
+        margin-top: 0px !important; }
 .cq-chart-setting .body .ciq-list-setting .ciq-list-item.ciq-list-item-lng {
         cursor: pointer; }
 .cq-chart-setting .body .ciq-list-setting .ciq-list-item.ciq-list-item-position .ciq-action .ic-icon {
@@ -1040,6 +1043,8 @@
       line-height: 36px;
       padding: 0;
       padding-left: 10px; }
+.cq-chart-setting .body .ciq-list-language .ciq-list-item:first-child {
+        margin-top: 0px !important; }
 .cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(2n) {
         border-left: none; }
 .smartcharts-light .cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(2) {
@@ -1124,6 +1129,8 @@
       padding: 1px 10px;
       height: 40px;
       justify-content: space-between; }
+.cq-download .body .content .ciq-list-download .ciq-list-item:first-child {
+        margin-top: 0px !important; }
 .cq-download .body .content .ciq-list-download .ciq-list-item .cq-loading {
         margin-left: 5px; }
 .cq-download .body .content .ciq-list-download .ciq-list-item .ic-icon {
@@ -1178,6 +1185,8 @@
       color: #c2c2c2;
       background: #0e0e0e;
       border: 1px solid #1d1f20; }
+.ciq-list .ciq-list-item:first-child {
+      margin-top: 18px; }
 .ciq-list .ciq-list-item.active {
       font-weight: bold; }
 .smartcharts-light .ciq-list .ciq-list-item.active {
@@ -1455,9 +1464,10 @@
       font-size: 1.4em;
       border: none;
       outline: 0;
-      width: calc(100% - 40px);
       background-color: transparent;
-      border-radius: 4px; }
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input > input {
         background: #ffffff;
         border: 1px solid #d6dadb;
@@ -1680,16 +1690,16 @@
       border-radius: 4px; }
 .smartcharts-light .cq-categorical-display .cq-item:hover, .smartcharts-light
     .cq-categorical-display .cq-active-item:hover {
-      color: rgba(0, 0, 0, 0.8);
-      background: rgba(0, 0, 0, 0.04); }
+      color: #333333;
+      background: #e6e9e9; }
 .smartcharts-dark .cq-categorical-display .cq-item:hover, .smartcharts-dark
     .cq-categorical-display .cq-active-item:hover {
       color: #7f8397;
       background: #202641; }
 .smartcharts-light .cq-categorical-display .cq-item:hover .right .ic-icon svg, .smartcharts-light
     .cq-categorical-display .cq-active-item:hover .right .ic-icon svg {
-      fill: rgba(0, 0, 0, 0.8);
-      stroke: rgba(0, 0, 0, 0.8); }
+      fill: #333333;
+      stroke: #333333; }
 .smartcharts-dark .cq-categorical-display .cq-item:hover .right .ic-icon svg, .smartcharts-dark
     .cq-categorical-display .cq-active-item:hover .right .ic-icon svg {
       fill: #7f8397;
@@ -3037,7 +3047,8 @@ html, body {
     color: #333333 !important; }
 .smartcharts-dark .stx-float-price, .smartcharts-dark
   .stx-float-date {
-    color: !important; }
+    background-color: #2a3052;
+    color: #ffffff !important; }
 .stx-float-date {
   /* Crosshair Floating x-axis date label*/
   position: absolute;
@@ -3727,7 +3738,7 @@ html, body {
     background-color: #f2f3f4; }
 .smartcharts-dark .cq-menu-dropdown {
     color: #7f8397;
-    background-color: #191c31; }
+    background-color: #151717; }
 .cq-menu-dropdown.cq-menu-dropdown-enter-done, .cq-menu-dropdown.cq-menu-dropdown-enter-active {
     opacity: 1; }
 .cq-menu-dropdown.cq-menu-dropdown-enter-done {
@@ -4049,11 +4060,11 @@ html, body {
 .smartcharts-light .cq-chart-controls .ciq-menu.ciq-enabled.stxMenuActive {
       box-shadow: 0px -2px 0px 0 #ff444f; }
 .smartcharts-dark .cq-chart-controls .ciq-menu.ciq-enabled.stxMenuActive {
-      box-shadow: 0px -2px 0px 0 #ffffff; }
+      box-shadow: 0px -2px 0px 0 #ff444f; }
 .smartcharts-light .cq-chart-controls .ciq-menu.ciq-enabled.stxMenuActive .cq-menu-btn {
       background: #ffffff; }
 .smartcharts-dark .cq-chart-controls .ciq-menu.ciq-enabled.stxMenuActive .cq-menu-btn {
-      background: #202641; }
+      background: #0e0e0e; }
 .smartcharts-light .cq-chart-controls .ciq-menu.ciq-enabled.stxMenuActive .cq-menu-btn > .ic-icon, .smartcharts-light
     .cq-chart-controls .ciq-menu.ciq-enabled.stxMenuActive .cq-menu-btn > .cq-toggle {
       color: #7f8397; }
@@ -4167,7 +4178,7 @@ html, body {
 .smartcharts-light .cq-chart-control-left .cq-chart-controls .ciq-menu .stxMenuActive {
       box-shadow: 2px 0.3px 0px 0 #ff444f; }
 .smartcharts-dark .cq-chart-control-left .cq-chart-controls .ciq-menu .stxMenuActive {
-      box-shadow: 2px 0.3px 0px 0 #ffffff; }
+      box-shadow: 2px 0.3px 0px 0 #ff444f; }
 .cq-chart-control-left .cq-chart-controls .ciq-menu .cq-menu-btn {
       padding: 0 5px; }
 /* Mobile Style */
