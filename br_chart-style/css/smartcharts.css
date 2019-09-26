@@ -166,14 +166,10 @@
 .ciq-chart-types .cq-menu-dropdown .body {
     padding: 18px 18px 0; }
 .ciq-chart-types .ciq-list {
-  padding-right: 12px; }
+  padding-right: 9px; }
 .ciq-chart-types .ciq-list .ciq-list-item {
     padding: 0;
     justify-content: space-between; }
-.smartcharts-light .ciq-chart-types .ciq-list .ciq-list-item.active {
-      border-right: 2px solid #999cac; }
-.smartcharts-dark .ciq-chart-types .ciq-list .ciq-list-item.active {
-      border-right: 2px solid #ffffff; }
 .ciq-chart-types .ciq-list .ciq-list-item > .left {
       display: inline-flex;
       align-items: center; }
@@ -967,7 +963,7 @@
 .smartcharts-dark .ciq-draw-tools .cq-menu-dropdown .body .cq-draw-button {
         border: solid #202641 1px; }
 .ciq-draw-tools .cq-menu-dropdown .body .ciq-list {
-      padding-right: 13px; }
+      padding-right: 9px; }
 
 /* ------------------------ *\
 		Variables
