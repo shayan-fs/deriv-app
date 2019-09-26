@@ -214,7 +214,7 @@
 .smartcharts-light .cq-dialog {
     background: #ffffff; }
 .smartcharts-dark .cq-dialog {
-    background: #191c31; }
+    background: #0e0e0e; }
 .cq-dialog.open {
     visibility: visible;
     margin-top: 0px;
@@ -274,8 +274,8 @@
       border: 1px solid #eaeced;
       background: #ffffff; }
 .smartcharts-dark .ciq-views .cq-menu-dropdown .template-name {
-      border: 1px solid #191c31;
-      background: #101320; }
+      border: 1px solid #1d1f20;
+      background: #0e0e0e; }
 .ciq-views .cq-menu-dropdown .template-name .icon {
       display: flex;
       justify-content: flex-end; }
@@ -1045,7 +1045,7 @@
 .smartcharts-light .cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(2) {
         border-top: 1px solid #eaeced; }
 .smartcharts-dark .cq-chart-setting .body .ciq-list-language .ciq-list-item:nth-child(2) {
-        border-top: 1px solid #191c31; }
+        border-top: 1px solid #1d1f20; }
 .cq-chart-setting .body .ciq-list-language .ciq-list-item .ic-icon {
         cursor: pointer;
         display: inline-block;
@@ -1175,9 +1175,9 @@
       background: #ffffff;
       border: 1px solid #eaeced; }
 .smartcharts-dark .ciq-list .ciq-list-item {
-      color: #7f8397;
-      background: #101320;
-      border: 1px solid #191c31; }
+      color: #c2c2c2;
+      background: #0e0e0e;
+      border: 1px solid #1d1f20; }
 .ciq-list .ciq-list-item.active {
       font-weight: bold; }
 .smartcharts-light .ciq-list .ciq-list-item.active {
@@ -1185,7 +1185,7 @@
         background-color: rgba(0, 0, 0, 0.16); }
 .smartcharts-dark .ciq-list .ciq-list-item.active {
         color: #ffffff;
-        background-color: #202641; }
+        background-color: #323738; }
 .ciq-list .ciq-list-item.disabled {
       pointer-events: none; }
 .ciq-list .ciq-list-item.disabled > * {
@@ -3741,7 +3741,7 @@ html, body {
 .smartcharts-light .cq-menu-dropdown .title {
       background: #ffffff; }
 .smartcharts-dark .cq-menu-dropdown .title {
-      background: #191c31; }
+      background: #0e0e0e; }
 .cq-menu-dropdown .title .title-text {
       display: inline-block;
       font-size: 1.2em;
