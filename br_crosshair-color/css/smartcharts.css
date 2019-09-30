@@ -3086,7 +3086,7 @@ html, body {
     color: #333333 !important; }
 .smartcharts-dark .stx-float-price, .smartcharts-dark
   .stx-float-date {
-    background-color: #333333;
+    background-color: #323738;
     color: #ffffff !important; }
 .stx-float-date {
   /* Crosshair Floating x-axis date label*/
@@ -3094,10 +3094,12 @@ html, body {
   font-size: 12px;
   font-family: 'Helvetica';
   z-index: 3;
-  padding: 3px 6px 2px;
+  padding: 0 8px;
   text-align: center;
   width: auto;
-  line-height: 18px; }
+  height: 30px;
+  line-height: 31px;
+  box-size: content-box; }
 .stx_crosshair {
   /* Standard Crosshair lines color */
   position: absolute;
@@ -3443,8 +3445,7 @@ html, body {
     color: #999999; }
 .stx_price_label {
   font-size: 12px;
-  font-family: 'Roboto';
-  font-weight: bold; }
+  font-family: 'Roboto'; }
 .smartcharts-light .stx_price_label {
     color: #555975; }
 .smartcharts-dark .stx_price_label {
