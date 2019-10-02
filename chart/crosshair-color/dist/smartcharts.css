@@ -214,7 +214,7 @@ html,body{-ms-touch-action:none;margin:0px}
 .stx_yaxis,.stx_xaxis,.stx_xaxis_dark{font-size:10px;font-family:'Roboto'}
 .smartcharts-light .stx_yaxis,.smartcharts-light .stx_xaxis,.smartcharts-light .stx_xaxis_dark{color:#555975}
 .smartcharts-dark .stx_yaxis,.smartcharts-dark .stx_xaxis,.smartcharts-dark .stx_xaxis_dark{color:#999}
-.stx_price_label{font-size:12px;font-family:'Roboto'}
+.stx_price_label{font-weight:normal;font-size:12px;font-family:'Roboto'}
 .smartcharts-light .stx_price_label{color:#555975}
 .smartcharts-dark .stx_price_label{color:#999}
 .stx-holder:hover .stx-btn-panel{opacity:1;transition:opacity 0.5s, height 0.3s}
