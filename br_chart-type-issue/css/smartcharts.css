@@ -3072,7 +3072,10 @@ html, body {
 /* -------- Current Price label (Floating last price on y-axis)-------- */
 .stx_current_hr_up,
 .stx_current_hr_down {
-  /* 'Down' color for current chart value */ }
+  /* 'Down' color for current chart value */
+  font-weight: bold;
+  font-size: 12px;
+  font-family: 'Roboto'; }
 .smartcharts-light .stx_current_hr_up, .smartcharts-light
   .stx_current_hr_down {
     color: #ffffff;
@@ -3092,7 +3095,7 @@ html, body {
     color: #333333 !important; }
 .smartcharts-dark .stx-float-price, .smartcharts-dark
   .stx-float-date {
-    background-color: #333333;
+    background-color: #323738;
     color: #ffffff !important; }
 .stx-float-date {
   /* Crosshair Floating x-axis date label*/
@@ -3100,10 +3103,12 @@ html, body {
   font-size: 12px;
   font-family: 'Helvetica';
   z-index: 3;
-  padding: 3px 6px 2px;
+  padding: 0 8px;
   text-align: center;
   width: auto;
-  line-height: 18px; }
+  height: 30px;
+  line-height: 31px;
+  box-size: content-box; }
 .stx_crosshair {
   /* Standard Crosshair lines color */
   position: absolute;
@@ -3111,7 +3116,7 @@ html, body {
 .smartcharts-light .stx_crosshair {
     background-color: #d6dadb; }
 .smartcharts-dark .stx_crosshair {
-    background-color: rgba(127, 131, 151, 0.3); }
+    background-color: #323738; }
 .stx_crosshair_drawing {
   /* Crosshairs lines when drawing */
   position: absolute;
@@ -3119,7 +3124,7 @@ html, body {
 .smartcharts-light .stx_crosshair_drawing {
     background-color: #d6dadb; }
 .smartcharts-dark .stx_crosshair_drawing {
-    background-color: rgba(127, 131, 151, 0.3); }
+    background-color: #323738; }
 .crossY, .stx_crosshair_y {
   /* Vertical Crosshair line size */
   left: 0px;
@@ -3448,9 +3453,9 @@ html, body {
 .smartcharts-dark .stx_yaxis, .smartcharts-dark .stx_xaxis, .smartcharts-dark .stx_xaxis_dark {
     color: #999999; }
 .stx_price_label {
+  font-weight: normal;
   font-size: 12px;
-  font-family: 'Roboto';
-  font-weight: bold; }
+  font-family: 'Roboto'; }
 .smartcharts-light .stx_price_label {
     color: #555975; }
 .smartcharts-dark .stx_price_label {
@@ -3941,7 +3946,6 @@ html, body {
 /*hover*/
 .price {
   font-size: 12px;
-  font-weight: bold;
   display: block;
   padding: 3px 1px;
   line-height: 18px;
@@ -4333,15 +4337,14 @@ html, body {
     pointer-events: none;
     padding: 8px;
     box-sizing: border-box;
-    box-shadow: 0 2px 8px 0 rgba(21, 33, 45, 0.32);
     display: flex;
     flex-direction: column; }
 .smartcharts-light .stx-crosshair-on .cq-crosshair .cq-crosshair-content {
-      color: #ffffff;
-      background: rgba(0, 0, 0, 0.8); }
+      color: #333333;
+      background: #d6dadb; }
 .smartcharts-dark .stx-crosshair-on .cq-crosshair .cq-crosshair-content {
       color: #ffffff;
-      background: #333333; }
+      background: #323738; }
 .stx-crosshair-on .cq-crosshair .cq-crosshair-content:after, .stx-crosshair-on .cq-crosshair .cq-crosshair-content:before {
       content: '';
       position: absolute;
@@ -4354,17 +4357,17 @@ html, body {
 .stx-crosshair-on .cq-crosshair .cq-crosshair-content:after {
       left: -6px; }
 .smartcharts-light .stx-crosshair-on .cq-crosshair .cq-crosshair-content:after {
-        border-right: 6px solid rgba(0, 0, 0, 0.8); }
+        border-right: 6px solid #d6dadb; }
 .smartcharts-dark .stx-crosshair-on .cq-crosshair .cq-crosshair-content:after {
-        border-right: 6px solid #333333; }
+        border-right: 6px solid #323738; }
 .stx-crosshair-on .cq-crosshair .cq-crosshair-content:before {
       left: 100%; }
 .smartcharts-light .stx-crosshair-on .cq-crosshair .cq-crosshair-content:before {
-        border-left: 6px solid rgba(0, 0, 0, 0.8); }
+        border-left: 6px solid #d6dadb; }
 .smartcharts-dark .stx-crosshair-on .cq-crosshair .cq-crosshair-content:before {
-        border-left: 6px solid #333333; }
+        border-left: 6px solid #323738; }
 .stx-crosshair-on .cq-crosshair .cq-crosshair-content .row {
-      font-size: 1.2em;
+      font-size: 12px;
       line-height: 18px;
       margin-bottom: 4px; }
 .stx-crosshair-on .cq-crosshair .cq-crosshair-content .row span:first-child {
