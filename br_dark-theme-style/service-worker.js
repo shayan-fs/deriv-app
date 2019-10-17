@@ -15,7 +15,7 @@ importScripts("/br_dark-theme-style/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/br_dark-theme-style/workbox-v4.3.1"});
 
 importScripts(
-  "/br_dark-theme-style/precache-manifest.215eddf675118a0a48e45f356dc9938d.js"
+  "/br_dark-theme-style/precache-manifest.40e0f3a4c7d66a8c36922a478f08210d.js"
 );
 
 workbox.core.skipWaiting();

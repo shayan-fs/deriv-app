@@ -549,7 +549,7 @@
 .smartcharts-dark .cq-dropdown .title svg {
         fill: #c2c2c2; }
 .smartcharts-light .cq-dropdown .title.active {
-      border-color: #999cac; }
+      border-color: #d6dadb; }
 .smartcharts-dark .cq-dropdown .title.active {
       border-color: #85acb0; }
 .cq-dropdown .title.active svg {
@@ -582,8 +582,8 @@
 .cq-dropdown .dropdown .row:hover {
         font-weight: bold; }
 .smartcharts-light .cq-dropdown .dropdown .row:hover {
-          background: #999cac;
-          color: #2a3052; }
+          background: #d6dadb;
+          color: #333333; }
 .smartcharts-dark .cq-dropdown .dropdown .row:hover {
           background: #323738;
           color: #ffffff; }
@@ -641,12 +641,13 @@
     z-index: +2;
     width: 250px;
     padding: 8px;
-    box-shadow: 0 2px 8px 0 rgba(42, 48, 82, 0.14);
     transition: opacity 0.1s;
     border-radius: 4px; }
 .smartcharts-light .cq-color-picker .dropdown {
+      box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.08), 0 0 16px 0 rgba(0, 0, 0, 0.08);
       background: #ffffff; }
 .smartcharts-dark .cq-color-picker .dropdown {
+      box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.64), 0 0 16px 0 rgba(0, 0, 0, 0.64);
       background: #151717; }
 .cq-color-picker .dropdown.open {
       z-index: 2;
@@ -2979,11 +2980,11 @@ html, body {
   white-space: nowrap;
   border-radius: 3px; }
 .smartcharts-light .mSticky {
-    color: #ffffff;
-    background: rgba(127, 131, 151, 0.88); }
+    color: #333333;
+    background: #f2f3f4; }
 .smartcharts-dark .mSticky {
-    color: #2a3052;
-    background: rgba(255, 255, 255, 0.88); }
+    color: #ffffff;
+    background: #151717; }
 .mSticky .mStickyInterior {
     padding: 8px 8px 4px;
     position: relative;
@@ -2993,9 +2994,9 @@ html, body {
     border: none;
     box-sizing: border-box; }
 .smartcharts-light .mSticky .mStickyInterior {
-      background: #7f8397; }
+      background: #d6dadb; }
 .smartcharts-dark .mSticky .mStickyInterior {
-      background: white; }
+      background: #323738; }
 .mSticky .mStickyRightClick {
     position: relative; }
 .vectorTrashCan, .overlayEdit {
@@ -3020,10 +3021,10 @@ html, body {
   border-radius: 3px; }
 .smartcharts-light .overlayEdit.stx-btn, .smartcharts-light
   .vectorTrashCan.stx-btn {
-    background: rgba(127, 131, 151, 0.88) !important; }
+    background: #f2f3f4 !important; }
 .smartcharts-dark .overlayEdit.stx-btn, .smartcharts-dark
   .vectorTrashCan.stx-btn {
-    background: rgba(255, 255, 255, 0.88) !important; }
+    background: #151717 !important; }
 .overlayEdit.stx-btn span,
 .vectorTrashCan.stx-btn span {
   /* Drawing and study info div delete button content */
