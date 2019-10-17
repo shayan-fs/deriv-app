@@ -44,11 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/br_dark-theme-style/css/settings-chart.css"
   },
   {
-    "revision": "851df197790e16181350079c8468e379",
+    "revision": "c9d47658f7fe3ab516df20ffa64a2419",
     "url": "/br_dark-theme-style/css/smartcharts.css"
   },
   {
-    "revision": "b42173a9cd8185efbe7c2b1321dda272",
+    "revision": "2ffd4e053404b772cd486c0d4f771711",
     "url": "/br_dark-theme-style/css/smartcharts.css.map"
   },
   {

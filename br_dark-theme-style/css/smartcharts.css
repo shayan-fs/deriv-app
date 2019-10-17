@@ -1232,6 +1232,12 @@
 .ciq-list .ciq-list-item.disabled > * {
         opacity: 0.2;
         cursor: auto; }
+.ciq-list > div:nth-child(3) > div {
+    opacity: 0.16; }
+.smartcharts-light .ciq-list > div:nth-child(3) > div {
+      background-color: #7f8397 !important; }
+.smartcharts-dark .ciq-list > div:nth-child(3) > div {
+      background-color: #c2c2c2 !important; }
 
 /* ------------------------ *\
 		Variables
@@ -1786,6 +1792,12 @@
     min-height: 320px; }
 .cq-categorical-display .cq-scroll-panel > div:nth-child(3) {
       z-index: 9; }
+.cq-categorical-display .cq-scroll-panel > div:nth-child(3) > div {
+        opacity: 0.16; }
+.smartcharts-light .cq-categorical-display .cq-scroll-panel > div:nth-child(3) > div {
+          background-color: #7f8397 !important; }
+.smartcharts-dark .cq-categorical-display .cq-scroll-panel > div:nth-child(3) > div {
+          background-color: #c2c2c2 !important; }
 .cq-categorical-display .ciq-item-display {
     display: inline-block;
     vertical-align: top; }
