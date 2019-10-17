@@ -537,7 +537,7 @@
     box-sizing: border-box; }
 .smartcharts-light .cq-dropdown .title {
       color: #7f8397 !important;
-      border: 1px solid #999999; }
+      border: 1px solid #d6dadb; }
 .smartcharts-dark .cq-dropdown .title {
       color: #c2c2c2 !important;
       border: 1px solid #323738; }
@@ -549,7 +549,7 @@
 .smartcharts-dark .cq-dropdown .title svg {
         fill: #c2c2c2; }
 .smartcharts-light .cq-dropdown .title.active {
-      border-color: #d6dadb; }
+      border-color: #85acb0; }
 .smartcharts-dark .cq-dropdown .title.active {
       border-color: #85acb0; }
 .cq-dropdown .title.active svg {
@@ -970,7 +970,7 @@
       border-radius: 3px;
       font-weight: bold; }
 .smartcharts-light .ciq-draw-tools .cq-menu-dropdown .body .cq-draw-button {
-        border: solid #999999 1px; }
+        border: solid #d6dadb 1px; }
 .smartcharts-dark .ciq-draw-tools .cq-menu-dropdown .body .cq-draw-button {
         border: solid #323738 1px; }
 .ciq-draw-tools .cq-menu-dropdown .body .ciq-list {
