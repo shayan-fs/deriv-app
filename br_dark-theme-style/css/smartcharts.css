@@ -576,6 +576,10 @@
       opacity: 1;
       pointer-events: all;
       transition: opacity 0.3s, top 0.2s; }
+.smartcharts-light .cq-dropdown .dropdown.active {
+        box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.08), 0 0 16px 0 rgba(0, 0, 0, 0.08); }
+.smartcharts-dark .cq-dropdown .dropdown.active {
+        box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.64), 0 0 16px 0 rgba(0, 0, 0, 0.64); }
 .cq-dropdown .dropdown .row {
       cursor: pointer;
       padding: 8px 8px 9px; }
@@ -695,6 +699,24 @@
     background: #555975; }
 .cq-numbercolorpicker, .cq-fontsetting {
   display: inline-flex; }
+.cq-numbercolorpicker input {
+  box-shadow: none !important; }
+.smartcharts-light .cq-numbercolorpicker input {
+    background: #0e0e0e;
+    border: 1px solid rgba(127, 131, 151, 0.3) !important;
+    color: #3e3e3e; }
+.smartcharts-dark .cq-numbercolorpicker input {
+    background: #0e0e0e;
+    border: 1px solid rgba(127, 131, 151, 0.3) !important;
+    color: #ffffff; }
+.smartcharts-light .cq-numbercolorpicker input:hover {
+    border-color: !important; }
+.smartcharts-dark .cq-numbercolorpicker input:hover {
+    border-color: !important; }
+.smartcharts-light .cq-numbercolorpicker input:focus {
+    border-color: !important; }
+.smartcharts-dark .cq-numbercolorpicker input:focus {
+    border-color: !important; }
 .cq-fontsetting .cq-text-icon {
   margin-right: 5px; }
 .cq-text-icon {
@@ -1477,8 +1499,8 @@
 .smartcharts-dark .cq-categorical-display .cq-lookup-input:hover input {
       border-color: #6e6e6e; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input:hover > .ic-icon svg {
-      fill: #5c5c5c;
-      stroke: #5c5c5c; }
+      fill: #333333;
+      stroke: #333333; }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input:hover > .ic-icon svg {
       fill: #c2c2c2;
       stroke: #c2c2c2; }
@@ -1492,16 +1514,10 @@
       fill: #333333;
       stroke: #333333; }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input:focus > .ic-icon svg {
-      fill: #999999;
-      stroke: #999999; }
+      fill: #ffffff;
+      stroke: #ffffff; }
 .cq-categorical-display .cq-lookup-input:focus > .icon-reset {
       opacity: 1; }
-.cq-categorical-display .cq-lookup-input:focus > .icon-reset svg {
-        stroke: transparent !important; }
-.smartcharts-light .cq-categorical-display .cq-lookup-input:focus > .icon-reset svg {
-          fill: #333333; }
-.smartcharts-dark .cq-categorical-display .cq-lookup-input:focus > .icon-reset svg {
-          fill: #333333; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input.active input {
       color: #333333;
       border-color: #999999; }
@@ -1509,19 +1525,13 @@
       color: #ffffff;
       border-color: #6e6e6e; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input.active > .ic-icon svg {
-      fill: #5c5c5c;
-      stroke: #5c5c5c; }
+      fill: #333333;
+      stroke: #333333; }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input.active > .ic-icon svg {
       fill: #c2c2c2;
       stroke: #c2c2c2; }
 .cq-categorical-display .cq-lookup-input.active > .icon-reset {
       opacity: 1; }
-.cq-categorical-display .cq-lookup-input.active > .icon-reset svg {
-        stroke: transparent !important; }
-.smartcharts-light .cq-categorical-display .cq-lookup-input.active > .icon-reset svg {
-          fill: #333333; }
-.smartcharts-dark .cq-categorical-display .cq-lookup-input.active > .icon-reset svg {
-          fill: #333333; }
 .cq-categorical-display .cq-lookup-input > input {
       padding-left: 34px;
       line-height: 2em;
@@ -1537,24 +1547,25 @@
         border: 1px solid #d6dadb;
         color: rgba(0, 0, 0, 0.16); }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input > input {
+        background: #0e0e0e;
         border: 1px solid rgba(127, 131, 151, 0.3);
-        color: rgba(127, 131, 151, 0.3); }
+        color: #3e3e3e; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input > input::-webkit-input-placeholder {
         color: rgba(0, 0, 0, 0.16); }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input > input::-webkit-input-placeholder {
-        color: rgba(127, 131, 151, 0.3); }
+        color: #3e3e3e; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input > input:-moz-placeholder {
         color: rgba(0, 0, 0, 0.16); }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input > input:-moz-placeholder {
-        color: rgba(127, 131, 151, 0.3); }
+        color: #3e3e3e; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input > input::-moz-placeholder {
         color: rgba(0, 0, 0, 0.16); }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input > input::-moz-placeholder {
-        color: rgba(127, 131, 151, 0.3); }
+        color: #3e3e3e; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input > input:-ms-input-placeholder {
         color: rgba(0, 0, 0, 0.16); }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input > input:-ms-input-placeholder {
-        color: rgba(127, 131, 151, 0.3); }
+        color: #3e3e3e; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input > input:focus {
         border-color: #85acb0;
         color: #333333; }
@@ -1565,18 +1576,18 @@
         fill: #333333;
         stroke: #333333; }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input > input:focus + .ic-icon svg {
-        fill: #999999;
-        stroke: #999999; }
+        fill: #ffffff;
+        stroke: #ffffff; }
 .cq-categorical-display .cq-lookup-input > .ic-icon {
       position: absolute;
       top: 6px;
       left: 4px; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input > .ic-icon svg {
-        fill: #999999;
-        stroke: #999999; }
+        fill: #333333;
+        stroke: #333333; }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input > .ic-icon svg {
-        fill: rgba(127, 131, 151, 0.3);
-        stroke: rgba(127, 131, 151, 0.3); }
+        fill: #c2c2c2;
+        stroke: #c2c2c2; }
 .cq-categorical-display .cq-lookup-input > .icon-reset {
       position: absolute;
       opacity: 0;
@@ -1590,6 +1601,12 @@
       border-radius: 50%;
       cursor: pointer;
       transition: right, opacity 0.2s ease-in-out; }
+.cq-categorical-display .cq-lookup-input > .icon-reset svg {
+        stroke: transparent !important; }
+.smartcharts-light .cq-categorical-display .cq-lookup-input > .icon-reset svg {
+          fill: #333333; }
+.smartcharts-dark .cq-categorical-display .cq-lookup-input > .icon-reset svg {
+          fill: #333333; }
 .cq-categorical-display .category {
     padding-top: 3em;
     padding-bottom: 12px;
