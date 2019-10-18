@@ -1503,8 +1503,10 @@
 .smartcharts-dark .cq-categorical-display .cq-lookup-input:focus > .icon-reset svg {
           fill: #333333; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input.active input {
+      color: #333333;
       border-color: #999999; }
 .smartcharts-dark .cq-categorical-display .cq-lookup-input.active input {
+      color: #ffffff;
       border-color: #6e6e6e; }
 .smartcharts-light .cq-categorical-display .cq-lookup-input.active > .ic-icon svg {
       fill: #5c5c5c;
