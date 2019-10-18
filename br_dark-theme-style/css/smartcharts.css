@@ -636,6 +636,14 @@
       background-color: #ffffff; }
 .smartcharts-dark .cq-color-picker .title {
       background-color: #151717; }
+.cq-color-picker .title .input-color {
+      height: 100%;
+      width: 100%;
+      border-radius: 4px; }
+.smartcharts-light .cq-color-picker .title .input-color {
+        border: 1px solid #d6dadb; }
+.smartcharts-dark .cq-color-picker .title .input-color {
+        border: 1px solid rgba(127, 131, 151, 0.3); }
 .cq-color-picker .dropdown {
     position: absolute;
     top: 30px;
@@ -702,11 +710,11 @@
 .cq-numbercolorpicker input {
   box-shadow: none !important; }
 .smartcharts-light .cq-numbercolorpicker input {
-    background: #0e0e0e;
-    border: 1px solid rgba(127, 131, 151, 0.3) !important;
-    color: #3e3e3e; }
+    background: #ffffff;
+    border: 1px solid #d6dadb !important;
+    color: #333333; }
 .smartcharts-dark .cq-numbercolorpicker input {
-    background: #0e0e0e;
+    background: #151717;
     border: 1px solid rgba(127, 131, 151, 0.3) !important;
     color: #ffffff; }
 .smartcharts-light .cq-numbercolorpicker input:hover {
