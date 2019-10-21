@@ -15,7 +15,7 @@ importScripts("/br_chart-type-issue/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/br_chart-type-issue/workbox-v4.3.1"});
 
 importScripts(
-  "/br_chart-type-issue/precache-manifest.1b71d47f44a18946f7e1a19a8d49a68b.js"
+  "/br_chart-type-issue/precache-manifest.9f6c2b2e11f10ae5ee5515596fa4db11.js"
 );
 
 workbox.core.skipWaiting();
