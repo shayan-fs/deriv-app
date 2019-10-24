@@ -11,11 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("/br_dark-theme-style/workbox-v4.3.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/br_dark-theme-style/workbox-v4.3.1"});
-
 importScripts(
-  "/br_dark-theme-style/precache-manifest.af23c140ea15c9d1eb82aec27d92e648.js"
+  "/br_dark-theme-style/precache-manifest.f13ef398b2bf66f42f9a4447d6714735.js"
 );
 
 workbox.core.skipWaiting();
